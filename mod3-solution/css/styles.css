@@ -88,13 +88,36 @@ body {
     font-weight: bold;
     margin-bottom: 1em;
 }
-#chicken-tile, #beef-tile, #sushi-tile {
+#chicken, #beef, #sushi {
     width: 100%;
     padding: 20px;
     background-color: #99ed7b;
     margin-bottom: 60px;
     box-shadow: 0 0 80px #18580b;
 }
+h1 {
+    font-size: 1.75em;
+}
 
+section {
+    background-color: #999999;
+    border: 1px solid #000000;
+    margin: 0 0 25px 0;
+    padding: 0;
+}
+
+section h3 {
+    font-size: 1.25em;
+}
+
+section p {
+    padding: 0 6px 4px 6px;
+}
+#top{
+  color: black;
+}
+#top a:hover{
+  color: blue;
+}
 
 /** END HOME PAGE **/
